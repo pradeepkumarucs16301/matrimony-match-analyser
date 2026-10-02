@@ -1,0 +1,11 @@
+command:
+  - python
+  - app.py
+
+env:
+  - name: DATABRICKS_WAREHOUSE_ID
+    valueFrom: sql-warehouse
+  - name: SMTP_EMAIL
+    value: "pradeepsubsun@gmail.com"
+  - name: SMTP_PASSWORD
+    value: "nbma ptou cxmk vtyo"
